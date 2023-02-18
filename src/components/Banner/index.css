@@ -1,0 +1,112 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-container {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("https://res.cloudinary.com/djqfb6spf/image/upload/v1676607289/learning_dgvrzh.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.banner-text-container {
+  padding-left: 50px;
+  padding-bottom: 70px;
+}
+.banner-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 70px;
+  font-weight: 200;
+}
+.banner-heading-1 {
+  font-family: "sans-serif";
+  font-weight: bold;
+}
+.banner-heading-2 {
+  font-weight: 600;
+}
+.banner-subheading {
+  color: #fffafa;
+  font-size: 20px;
+  text-align: left;
+}
+
+.who-we-are-container {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 50px 10px 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.who-we-are-text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.who-we-are-heading {
+  font-family: "sans-serif";
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.who-we-are-para {
+  font-family: "Roboto";
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.who-we-are-img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+.who-we-are-desktop-version {
+  display: block;
+}
+.who-we-are-mobile-version {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-container {
+    height: 60vh;
+  }
+  .banner-text-container {
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+  .banner-heading {
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .banner-subheading {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .who-we-are-container {
+    margin: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px 50px 10px 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .who-we-are-desktop-version {
+    display: none;
+  }
+  .who-we-are-mobile-version {
+    display: block;
+  }
+}
